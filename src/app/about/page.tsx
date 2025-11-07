@@ -23,8 +23,8 @@ export default function AboutPage() {
                         viewport={{ once: true }}
                     >
                         <Image
-                            src="/images/mamun-con.jpg"
-                            alt="Md Mamunur Rashid"
+                            src="/images/fiza.jpg"
+                            alt="Fizza Munir"
                             width={500}
                             height={500}
                             className="rounded-2xl w-full object-cover shadow-xl"
@@ -42,7 +42,7 @@ export default function AboutPage() {
                             About Me
                         </h1>
                         <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed mb-6">
-                            Hey! I&apos;m <span className="font-semibold text-blue-600 dark:text-blue-400">Md Mamunur Rashid</span>, a passionate <span className="font-semibold">Full Stack Developer</span> crafting performant, scalable web apps with modern tools like React, Node.js, and MongoDB.
+                            Hey! I&apos;m <span className="font-semibold text-blue-600 dark:text-blue-400">Fizza Munir</span>, a passionate <span className="font-semibold">Full Stack Developer</span> crafting performant, scalable web apps with modern tools like React, Node.js, and MongoDB.
                         </p>
                         <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed mb-6">
                             I&apos;m always exploring new tech and building things that make people&apos;s lives better. Whether it’s designing sleek UIs or solving backend logic, I love every bit of the process.
@@ -73,8 +73,8 @@ export default function AboutPage() {
                         </h2>
                         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
                             🎓 B.Sc. in Computer Science<br />
-                            📍 IUBAT - International University of Business Agriculture and Technology, Dhaka<br />
-                            📅 Graduation: December 2023
+                            📍 University of the Punjab, Lahore Pakistan<br />
+                            📅 Graduation: July 2025
                         </p>
                     </motion.div>
 
@@ -89,7 +89,7 @@ export default function AboutPage() {
                             <FaMapMarkerAlt /> Location
                         </h2>
                         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                            📍 Dhaka, Bangladesh<br />
+                            📍 Lahore, Pakistan<br />
                             Available for remote & freelance opportunities.
                         </p>
                     </motion.div>
@@ -125,8 +125,7 @@ export default function AboutPage() {
                             <FaBriefcase /> Experience
                         </h2>
                         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                            💼 Full Stack Developer @ Halcyon Digital<br />
-                            🗓️ June -2024 – Present<br />
+                            💼 Full Stack Developer @ Kreatorz.co<br />
                             🚀 Built scalable dashboards, APIs, and responsive UIs with React & Node.js.
                         </p>
                     </motion.div>

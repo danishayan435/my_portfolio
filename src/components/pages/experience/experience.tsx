@@ -8,17 +8,17 @@ import { GlowingEffect } from "@/components/ui/glowing-effect";
 
 const experiences = [
     {
-        role: "Full Stack Developer",
-        company: "Halcyon Digital",
-        period: "June 2024 - Present",
+        role: "Associate Software Engineer",
+        company: "Kreatorz.co",
+        period: "Nov 2024 - Oct 2025",
         description: [
             "Developed scalable APIs and database solutions with Node.js, Express, and MySQL.",
             "Building modern, fast, and accessible web applications with Next.js, TypeScript, Redux, TailwindCSS, etc.",
-            "Implemented CI/CD pipelines, Dockerized applications, and automated deployments.",
+            "Collaborate in an agile team using GitHub for version control.",
         ],
         projects: [
             {
-                name: "Gcart - E-commerce",
+                name: "",
                 details: [
                     "Built engaging Add to Cart, Wishlist, and Checkout features for a seamless shopping experience.",
                     "Designed dynamic User and Admin Dashboards for efficient management.",
@@ -29,21 +29,21 @@ const experiences = [
         ],
     },
     {
-        role: "Frontend Engineer Intern",
-        company: "Qwik IT Services",
-        period: "November 2023 - December 2023",
+        role: "MERN Stack Intern",
+        company: "Kreatorz.co",
+        period: "May 2024 - Oct 2024",
         description: [
             "Built modern, fast, and accessible web applications with Next.js, TypeScript, and TailwindCSS.",
             "Collaborated with backend and ui teams to improve API performance and UX.",
         ],
         projects: [
             {
-                name: "Quick - Mart",
+                name: "Beauty Here | Ecommerce Beauty Website",
                 details: [
                     "Designed and managed functionalities of Add To Cart, Wishlist.",
                     "Implemented order processing, checkout, and user dashboard management.",
                 ],
-                tech: ["Next.js", "JavaScript", "Django", "Django REST Framework", "MySQL", "TailwindCSS", "SwiperJs"],
+                tech: ["React.js", "JavaScript", "MongoDB", "TailwindCSS", "Netlify"],
             },
         ],
     },

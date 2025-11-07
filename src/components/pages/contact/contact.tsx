@@ -18,14 +18,14 @@ export default function ContactSection() {
 
                 <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mb-10">
                     <Link
-                        href="mailto:mdmamun.iubat.m@gmail.com"
+                        href="mailto:fizamuneer0101@gmail.com"
                         className="flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:underline"
                     >
                         <Mail className="w-5 h-5" />
-                        mdmamun.iubat.m@gmail.com
+                        fizamuneer0101@gmail.com
                     </Link>
                     <Link
-                        href="https://www.linkedin.com/in/md-mamunur-rashid-web/"
+                        href="https://www.linkedin.com/in/fiza-muneer-aa054a316/"
                         target="_blank"
                         className="flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:underline"
                     >
@@ -33,7 +33,7 @@ export default function ContactSection() {
                         LinkedIn
                     </Link>
                     <Link
-                        href="https://github.com/MMamunurRashid"
+                        href="https://github.com/fmughalishere"
                         target="_blank"
                         className="flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:underline"
                     >
@@ -43,7 +43,7 @@ export default function ContactSection() {
                 </div>
 
                 <Link
-                    href="mailto:mdmamun.iubat.m@gmail.com"
+                    href="fizamuneer0101@gmail.com"
                     className="inline-block "
                 >
                     <MovingBorderButton

@@ -4,8 +4,8 @@ import {
   IconBrandGithubFilled,
   IconBrandLinkedinFilled,
   IconBrandGmail,
-  IconBrandFacebookFilled,
   IconFileCvFilled,
+  IconBrandInstagramFilled,
 } from "@tabler/icons-react";
 
 
@@ -16,36 +16,36 @@ export function FloatingDockDemo() {
       icon: (
         <IconBrandGithubFilled className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://github.com/MMamunurRashid",
+      href: "https://github.com/fmughalishere",
     },
     {
         title: "Email",
         icon: (
           <IconBrandGmail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
-        href: "mailto:mdmamun.iubat.m@gmail.com",
+        href: "mailto:fizamuneer0101@gmail.com",
       },
       {
         title: "LinkedIn",
         icon: (
           <IconBrandLinkedinFilled className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
-        href: "https://www.linkedin.com/in/md-mamunur-rashid-web/",
+        href: "https://www.linkedin.com/in/fiza-muneer-aa054a316/",
       },
   
     {
-      title: "Facebook",
+      title: "Instagram",
       icon: (
-        <IconBrandFacebookFilled className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandInstagramFilled className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://www.facebook.com/mamunul.mamun.LM10",
+      href: "https://www.instagram.com/mern_dev_fiza/",
     },
     {
       title: "Resume",
       icon: (
         <IconFileCvFilled className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://drive.google.com/file/d/1MoJ-XuMi84n08jBOpDk32Mxb0EIl1Y9O/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1tBeaNPm5rPd5D2qJzVcUjS3NPoZWSr2N/view?usp=drive_open",
     },
   ];
   return (

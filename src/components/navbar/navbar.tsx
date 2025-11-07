@@ -57,7 +57,7 @@ const Navbar = () => {
                 <div className="flex justify-between items-center h-16">
                     {/* Logo */}
                     <Link href="/" className="text-xl md:text-2xl font-lobster font-bold text-gray-900 dark:text-white">
-                        Mamun&apos;s Portfolio
+                        Fizza&apos;s Portfolio
                     </Link>
 
                     {/* Desktop Menu */}
@@ -99,7 +99,7 @@ const Navbar = () => {
                             )}
                         </button>
                         <div className="hidden md:flex">
-                            <Link href={`https://drive.google.com/file/d/1MoJ-XuMi84n08jBOpDk32Mxb0EIl1Y9O/view?usp=sharing`} target="_blank">
+                            <Link href={`https://drive.google.com/file/d/1tBeaNPm5rPd5D2qJzVcUjS3NPoZWSr2N/view`} target="_blank">
                                 <AnimatedButton text="Download CV" />
                             </Link>
                         </div>
@@ -144,7 +144,7 @@ const Navbar = () => {
                             ))}
                         </div>
                         <div className="block md:hidden mx-5 pb-4">
-                            <Link href={`https://drive.google.com/file/d/1MoJ-XuMi84n08jBOpDk32Mxb0EIl1Y9O/view?usp=sharing`} target="_blank">
+                            <Link href={`https://drive.google.com/file/d/1tBeaNPm5rPd5D2qJzVcUjS3NPoZWSr2N/view`} target="_blank">
                                 <AnimatedButton text="Download CV" />
                             </Link>
                         </div>

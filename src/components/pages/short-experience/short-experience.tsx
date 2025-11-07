@@ -6,19 +6,19 @@ import Link from "next/link";
 
 const shortExperiences = [
     {
-        role: "Full Stack Developer",
-        company: "Halcyon Digital",
-        period: "June 2024 - Present",
+        role: "Associate Software Engineer",
+        company: "Kreatorz.co",
+        period: "Nov 2024 - Oct 2025",
         description: [
             "Developed scalable APIs and database solutions with Node.js, Express, and MySQL.",
             "Building modern, fast, and accessible web applications with Next.js, TypeScript, Redux, TailwindCSS, etc.",
-            "Implemented CI/CD pipelines, Dockerized applications, and automated deployments.",
+            "Collaborate in an agile team using GitHub for version control.",
         ],
     },
     {
-        role: "Frontend Engineer Intern",
-        company: "Qwik IT Services",
-        period: "November 2023 - December 2023",
+        role: "MERN Stack Intern",
+        company: "Kreatorz.co",
+        period: "May 2024 - Oct 2024",
         description: [
             "Built modern, fast, and accessible web applications with Next.js, TypeScript, and TailwindCSS.",
             "Collaborated with backend and ui teams to improve API performance and UX.",

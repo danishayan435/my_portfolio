@@ -1,23 +1,13 @@
 [
     {
-      "id": "11",
-      "img": "https://i.ibb.co/J3pLhWT/craft-hub-dp.png",
-      "name": "Craft Hub",
-      "description": "Craft marketplace with role-based dashboards for admin, seller, and buyers.",
-      "technology": "React, Nodejs, Express, MongoDB, TailwindCSS, Firebase, JWT etc.",
-      "liveLink": "https://craft-hub.web.app/",
-      "client": "https://github.com/MMamunurRashid/Craft-Hub/tree/main/prcticum-project-client",
-      "server": "https://github.com/MMamunurRashid/Craft-Hub/tree/main/practicum-project-server"
-    },
-    {
       "id": "1",
       "img": "https://i.ibb.co/mRBQWNd/foodo.png",
       "name": "Foodo",
       "description": "Restaurant management system with secure user roles, ordering, and dashboards.",
       "technology": "React, Nodejs, Express, MongoDB, Firebase, JWT etc.",
-      "liveLink": "https://rms-foodo.web.app/",
-      "client": "https://github.com/MMamunurRashid/Foodo",
-      "server": "https://github.com/MMamunurRashid/Foodo-Server"
+      "liveLink": "https://foodobyfizza.netlify.app/",
+      "client": "https://github.com/fmughalishere",
+      "server": "https://github.com/fmughalishere"
     },
     {
       "id": "2",
@@ -25,9 +15,9 @@
       "name": "Recycle Clothes",
       "description": "Eco-friendly marketplace to sell and buy secondhand clothes securely.",
       "technology": "React, Nodejs, Express, MongoDB, Firebase, JWT etc.",
-      "liveLink": "https://recycle-clothe.web.app/",
-      "client": "https://github.com/MMamunurRashid/Used-Product-Resale",
-      "server": "https://github.com/MMamunurRashid/Used-Product-Resale-Server"
+      "liveLink": "https://recycleclothesbyfizza.netlify.app/",
+      "client": "https://github.com/fmughalishere",
+      "server": "https://github.com/fmughalishere"
     },
     {
       "id": "3",
@@ -35,9 +25,9 @@
       "name": "Doctors Portal",
       "description": "Appointment booking platform for patients and doctors with role access.",
       "technology": "React, Nodejs, Express, MongoDB, Firebase, JWT etc.",
-      "liveLink": "https://doctors-portal-254e6.web.app/",
-      "client": "https://github.com/MMamunurRashid/doctors-portal-client",
-      "server": "https://github.com/MMamunurRashid/doctors-portal-server"
+      "liveLink": "https://doctors-portalbyfizza.netlify.app/",
+      "client": "https://github.com/fmughalishere",
+      "server": "https://github.com/fmughalishere"
     },
     {
       "id": "4",
@@ -46,8 +36,8 @@
       "description": "Photography service platform with bookings, reviews, and user dashboards.",
       "technology": "React, Nodejs, Express, MongoDB, Firebase, JWT etc.",
       "liveLink": "https://smile-photography-df416.web.app/",
-      "client": "https://github.com/MMamunurRashid/Photograpy-Service",
-      "server": "https://github.com/MMamunurRashid/Photography-Service-Server"
+      "client": "https://github.com/fmughalishere",
+      "server": "https://github.com/fmughalishere"
     },
     {
       "id": "5",
@@ -55,9 +45,9 @@
       "name": "Course Hero",
       "description": "E-learning platform with course management and secure user enrollment.",
       "technology": "React, Nodejs, Express, Firebase, TailwindCSS etc.",
-      "liveLink": "https://course-hero-1.web.app/",
-      "client": "https://github.com/MMamunurRashid/Course-Hero",
-      "server": "https://github.com/MMamunurRashid/Course-Hero-Server"
+      "liveLink": "https://course-herobyfizza.netlify.app/",
+      "client": "https://github.com/fmughalishere",
+      "server": "https://github.com/fmughalishere"
     },
     {
       "id": "6",
@@ -65,8 +55,8 @@
       "name": "Quick Quiz",
       "description": "A simple quiz platform built with React and Netlify hosting.",
       "technology": "React, React Router DOM, TailwindCSS(Daisy UI) Netlify etc.",
-      "liveLink": "https://quick-quiz-1.netlify.app/",
-      "client": "https://github.com/MMamunurRashid/Quick-Quiz"
+      "liveLink": "https://quick-quizbyfizza.netlify.app/",
+      "client": "https://github.com/fmughalishere"
     },
     {
       "id": "7",
@@ -74,9 +64,9 @@
       "name": "Ema-John E-commerce",
       "description": "Full-stack e-commerce site with product search, cart, and authentication.",
       "technology": "React, Node.js, Express.Js, MongoDB, TailwindCSS, Firebase etc.",
-      "liveLink": "https://ema-john-simple-492a4.web.app/",
-      "client": "https://github.com/MMamunurRashid/Ema-john-simple",
-      "server": "https://github.com/MMamunurRashid/ema-john-server"
+      "liveLink": "https://e-commercebyfizza.netlify.app/",
+      "client": "https://github.com/fmughalishere",
+      "server": "https://github.com/fmughalishere"
     },
     {
       "id": "8",
@@ -84,19 +74,19 @@
       "name": "Genius Car - Car Service Center",
       "description": "Car service booking and management site with admin dashboard.",
       "technology": "React, Node.js, Express.Js, MongoDB, TailwindCSS, Firebase etc.",
-      "liveLink": "https://genius-car-850d5.web.app/",
-      "client": "https://github.com/MMamunurRashid/genius-car-client",
-      "server": "https://github.com/MMamunurRashid/genius-car-server"
+      "liveLink": "https://geniuscar-servicebyfizza.netlify.app/",
+      "client": "https://github.com/fmughalishere",
+      "server": "https://github.com/fmughalishere"
     },
     {
       "id": "9",
-      "img": "https://i.ibb.co/ns7F9HX/dragon-news.jpg",
-      "name": "Dragon News - News Portal",
-      "description": "News site built with authentication and categorized news feeds.",
-      "technology": "React, Node.js, Express.Js, MongoDB, TailwindCSS, Firebase etc.",
-      "liveLink": "https://dragon-news-c4e45.web.app/",
-      "client": "https://github.com/MMamunurRashid/dragon-news-client",
-      "server": "https://github.com/MMamunurRashid/dragon-news-server"
+      "img": "https://i.ibb.co/J3pLhWT/craft-hub-dp.png",
+      "name": "Craft Hub",
+      "description": "Craft marketplace with role-based dashboards for admin, seller, and buyers.",
+      "technology": "React, Nodejs, Express, MongoDB, TailwindCSS, Firebase, JWT etc.",
+      "liveLink": "https://crafthubbyfizza.netlify.app/",
+      "client": "https://github.com/fmughalishere",
+      "server": "https://github.com/fmughalishere"
     },
     {
       "id": "10",
@@ -104,8 +94,8 @@
       "name": "Daily Activities",
       "description": "Simple task planner to list and manage daily to-dos.",
       "technology": "React, React Router DOM, TailwindCSS(Daisy UI), Netlify etc.",
-      "liveLink": "https://dailyactv.netlify.app/",
-      "client": "https://github.com/MMamunurRashid/Daily-Activities"
+      "liveLink": "https://daily-activitybyfizza.netlify.app/",
+      "client": "https://github.com/fmughalishere"
     }
   ]
   

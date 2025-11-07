@@ -15,17 +15,17 @@ const detailedSkills = [
     {
         category: "Programming Languages",
         icon: Code2,
-        skills: ["JavaScript", "TypeScript", "C#", "C++", "OOP"],
+        skills: ["HTML5", "CSS3", "JavaScript", "TypeScript"],
     },
     {
         category: "Frontend Frameworks",
         icon: Layout,
-        skills: ["React.js", "Next.js", "Tailwind CSS", "SCSS", "Bootstrap", "Redux"],
+        skills: ["React.js", "Next.js", "Tailwind CSS", "Bootstrap", "Redux"],
     },
     {
         category: "Backend Frameworks",
         icon: Server,
-        skills: ["Node.js", "Express.js", ".NET", "Django"],
+        skills: ["Node.js", "Express.js"],
     },
     {
         category: "Databases",
@@ -35,12 +35,12 @@ const detailedSkills = [
     {
         category: "Tools & DevOps",
         icon: Settings,
-        skills: ["GitHub", "CI/CD", "Docker"],
+        skills: ["GitHub", "Docker"],
     },
     {
         category: "Deployment Platforms",
         icon: Cloud,
-        skills: ["Vercel", "Netlify", "AWS", "Heroku", "DigitalOcean"],
+        skills: ["Vercel", "Netlify", "AWS", "Hostinger"],
     },
 ];
 

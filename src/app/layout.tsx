@@ -48,8 +48,8 @@ const Gotham = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Mamun's Portfolio",
-  description: "Mamun's Portfolio",
+  title: "Fizza's Portfolio",
+  description: "Fizza's Portfolio",
   icons: [{ rel: 'icon', url: `/favicon.ico` }],
 };
 

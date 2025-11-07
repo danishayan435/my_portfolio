@@ -81,18 +81,18 @@ export default function ContactPage() {
               <ul className="space-y-4">
                 <li className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                   <Mail className="w-5 h-5" />
-                  <Link href="mailto:mdmamun.iubat.m@gmail.com" className="hover:underline">
-                    mdmamun.iubat.m@gmail.com
+                  <Link href="mailto:fizamuneer0101@gmail.com" className="hover:underline">
+                    fizamuneer0101@gmail.com
                   </Link>
                 </li>
                 <li className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                   <Phone className="w-5 h-5" />
-                  <span>+88 01703898622</span>
+                  <span>+92 3284008871</span>
                 </li>
                 <li className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                   <Linkedin className="w-5 h-5" />
                   <Link
-                    href="https://www.linkedin.com/in/md-mamunur-rashid-web/"
+                    href="https://www.linkedin.com/in/fiza-muneer-aa054a316/"
                     target="_blank"
                     className="hover:underline"
                   >
@@ -102,7 +102,7 @@ export default function ContactPage() {
                 <li className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                   <Github className="w-5 h-5" />
                   <Link
-                    href="https://github.com/MMamunurRashid"
+                    href="https://github.com/fmughalishere"
                     target="_blank"
                     className="hover:underline"
                   >

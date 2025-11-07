@@ -22,13 +22,13 @@ export default function Footer() {
 
           {/* Social Links */}
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link href="https://github.com/MMamunurRashid" target="_blank">
+            <Link href="https://github.com/fmughalishere" target="_blank">
               <Github className="w-6 h-6 text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300" />
             </Link>
-            <Link href="https://www.linkedin.com/in/md-mamunur-rashid-web/" target="_blank">
+            <Link href="https://www.linkedin.com/in/fiza-muneer-aa054a316/" target="_blank">
               <Linkedin className="w-6 h-6 text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300" />
             </Link>
-            <Link href="mailto:mdmamun.iubat.m@gmail.com">
+            <Link href="mailto:fizamuneer0101@gmail.com">
               <Mail className="w-6 h-6 text-gray-900 dark:text-white hover:text-red-600 dark:hover:text-red-400 transition-colors duration-300" />
             </Link>
           </div>
@@ -36,7 +36,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="text-center mt-6 text-gray-500 dark:text-gray-400 text-sm">
-          © {new Date().getFullYear()} Mamunur Rashid. All rights reserved.
+          © {new Date().getFullYear()} Fizza Munir. All rights reserved.
         </div>
       </div>
     </footer>
