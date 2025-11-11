@@ -25,7 +25,7 @@ export default function Footer() {
             <Link href="https://github.com/fmughalishere" target="_blank">
               <Github className="w-6 h-6 text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300" />
             </Link>
-            <Link href="https://www.linkedin.com/in/fiza-muneer-aa054a316/" target="_blank">
+            <Link href="https://www.linkedin.com/in/fizza-muneer-aa054a316/" target="_blank">
               <Linkedin className="w-6 h-6 text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300" />
             </Link>
             <Link href="mailto:fizamuneer0101@gmail.com">

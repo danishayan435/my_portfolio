@@ -30,7 +30,7 @@ export function FloatingDockDemo() {
         icon: (
           <IconBrandLinkedinFilled className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
-        href: "https://www.linkedin.com/in/fiza-muneer-aa054a316/",
+        href: "https://www.linkedin.com/in/fizza-muneer-aa054a316/",
       },
   
     {

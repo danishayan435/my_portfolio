@@ -92,7 +92,7 @@ export default function ContactPage() {
                 <li className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                   <Linkedin className="w-5 h-5" />
                   <Link
-                    href="https://www.linkedin.com/in/fiza-muneer-aa054a316/"
+                    href="https://www.linkedin.com/in/fizza-muneer-aa054a316/"
                     target="_blank"
                     className="hover:underline"
                   >
