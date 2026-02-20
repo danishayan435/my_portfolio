@@ -93,8 +93,6 @@ export default function AboutPage() {
                             Available for Onsite, remote & freelance opportunities.
                         </p>
                     </motion.div>
-
-                    {/* Skills */}
                     <motion.div
                         initial={{ opacity: 0, y: 40 }}
                         whileInView={{ opacity: 1, y: 0 }}
