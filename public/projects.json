@@ -1,6 +1,7 @@
 [
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "id": "1",
       "img": "/images/beauty-here.png",
       "name": "Beauty Here",
@@ -122,6 +123,8 @@
   ]
   
 =======
+=======
+>>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
     "name": "Builtz Residencia - Real Estate Leads",
     "description": "Executed a high-converting lead generation funnel for luxury cottages, generating 100+ high-quality leads using Meta Ads and CRM integration.",
     "img": "/images/project-builtz-residencia.jpeg",
@@ -193,5 +196,9 @@
     "liveLink": "https://instagram.com/detai_lhub",
     "technology": "Lead Gen, Auto Industry, Content Mgmt"
   }
+<<<<<<< HEAD
 ]
 >>>>>>> 07a40eb (My Portfolio)
+=======
+]
+>>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce

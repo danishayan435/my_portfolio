@@ -4,7 +4,7 @@ import MovingBorderButton from "@/components/button/moving-border-button";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { FaLocationArrow, FaGraduationCap, FaMapMarkerAlt, FaBriefcase, FaRocket } from "react-icons/fa";
+import { FaLocationArrow, FaGraduationCap, FaMapMarkerAlt, FaRocket } from "react-icons/fa";
 import { BiTargetLock } from "react-icons/bi";
 import Footer from "@/components/footer/footer";
 import { About } from "@/components/pages/about/about";
@@ -12,10 +12,12 @@ import { About } from "@/components/pages/about/about";
 export default function AboutPage() {
     return (
         <div>
+            {/* Lamp Effect Section */}
             <About/>
             
             <section className="min-h-screen py-20 px-6 bg-white dark:bg-black transition-colors duration-300">
                 <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+                    {/* Profile Image - Updated to Danish's About Image */}
                     <motion.div
                         initial={{ opacity: 0, x: -40 }}
                         whileInView={{ opacity: 1, x: 0 }}
@@ -23,13 +25,15 @@ export default function AboutPage() {
                         viewport={{ once: true }}
                     >
                         <Image
-                            src="/images/danish-profile.jpeg"
+                            src="/images/danish-profile.jpeg" // Is name se image rename kar lena
                             alt="Muhammad Danish"
                             width={500}
                             height={500}
                             className="rounded-2xl w-full object-cover shadow-2xl border-b-8 border-orange-500"
                         />
                     </motion.div>
+
+                    {/* About Text - Marketing Focused */}
                     <motion.div
                         initial={{ opacity: 0, x: 40 }}
                         whileInView={{ opacity: 1, x: 0 }}
@@ -72,9 +76,8 @@ export default function AboutPage() {
                             <FaGraduationCap className="text-purple-500" /> Education
                         </h2>
                         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                            🎓 Bachelors of Science in Computer Science<br />
-                            📍 University of the Punjab, Lahore Pakistan<br />
-                            📅 Graduation: July 2025
+                            🎓 <b>Associate Degree in Computer Science</b><br />
+                            This technical edge allows me to master algorithms, automation, and CRM integrations faster than traditional marketers.
                         </p>
                     </motion.div>
 

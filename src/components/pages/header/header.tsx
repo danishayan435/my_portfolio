@@ -33,6 +33,7 @@ export function Header() {
                 {/* Right Side - Name & Info */}
                 <div className="md:w-[60%] w-[95%] flex flex-col justify-center items-start text-white">
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <h1 className="text-2xl md:text-[50px]  font-bold text-center md:mb-5 text-slate-300">Transforming Concepts into <br /> </h1>
                     <h1 className="text-2xl md:text-[56px]  font-bold text-center md:mb-5 text-slate-300"><ColourfulText text="Seamless User Experiences." /></h1>
                     <p className="md:text-3xl text-xl text-slate-400 mt-4 font-gotham font-bold animate-pulse">Fizza Munir</p>
@@ -42,6 +43,8 @@ export function Header() {
                         specialize in JavaScript, Next.js, and Node.js. Passionate about problem-solving, I excel at building
                         efficient solutions while collaborating effectively in dynamic team environments.
 =======
+=======
+>>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
                     <h1 className="text-2xl md:text-[50px] font-bold text-center md:mb-5 text-slate-300">
                         Bridging the Gap Between <br /> 
                     </h1>
@@ -51,7 +54,10 @@ export function Header() {
                     
                     <p className="md:text-3xl text-xl text-orange-500 mt-4 font-gotham font-bold animate-pulse">
                         Muhammad Danish
+<<<<<<< HEAD
 >>>>>>> 07a40eb (My Portfolio)
+=======
+>>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
                     </p>
                     <p className="text-[18px] text-slate-400 font-gotham font-semibold">
                         Senior Social Media Manager & Growth Strategist

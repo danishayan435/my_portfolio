@@ -13,15 +13,21 @@ import {
 const categorizedSkills = [
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         category: "Programming Languages",
         icon: Code2,
         skills: ["HTML5", "CSS3", "JavaScript", "TypeScript", "Dart"],
 =======
+=======
+>>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
         category: "Paid Advertising (Meta Ads)",
         icon: Target,
         skills: ["Ads Manager", "Pixel & CAPI", "ROAS Scaling", "Budget Optimization", "Retargeting"],
         color: "orange",
+<<<<<<< HEAD
 >>>>>>> 07a40eb (My Portfolio)
+=======
+>>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
     },
     {
         category: "Social Media Management",

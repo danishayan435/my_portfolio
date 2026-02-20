@@ -87,12 +87,17 @@ const Navbar = () => {
                         </button>
                         <div className="hidden md:flex">
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <Link href={`https://drive.google.com/file/d/1f4t-NkvF2uQsHwIKm9RoF6x3tBKdjsyL/view?usp=sharing`} target="_blank">
                                 <AnimatedButton text="Download CV" />
 =======
                             <Link href={`#`} target="_blank">
                                 <AnimatedButton text="Get Strategy" /> 
 >>>>>>> 07a40eb (My Portfolio)
+=======
+                            <Link href={`#`} target="_blank">
+                                <AnimatedButton text="Get Strategy" /> 
+>>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
                             </Link>
                         </div>
                         <button
@@ -127,18 +132,24 @@ const Navbar = () => {
                                 </Link>
                             ))}
 <<<<<<< HEAD
+<<<<<<< HEAD
                         </div>
                         <div className="block md:hidden mx-5 pb-4">
                             <Link href={`https://drive.google.com/file/d/1f4t-NkvF2uQsHwIKm9RoF6x3tBKdjsyL/view?usp=sharing`} target="_blank">
                                 <AnimatedButton text="Download CV" />
                             </Link>
 =======
+=======
+>>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
                             <div className="pt-4">
                                 <Link href={`#`} target="_blank" className="w-full inline-block text-center">
                                     <AnimatedButton text="Get Strategy" />
                                 </Link>
                             </div>
+<<<<<<< HEAD
 >>>>>>> 07a40eb (My Portfolio)
+=======
+>>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
                         </div>
                     </motion.div>
                 )}

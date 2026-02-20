@@ -2,11 +2,16 @@
 
 import { useEffect } from "react";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Code, Server, Settings, Smartphone, Globe, ShieldCheck, } from "lucide-react";
 =======
 // Marketing related icons import kiye hain
 import { Megaphone, Target, TrendingUp } from "lucide-react"; 
 >>>>>>> 07a40eb (My Portfolio)
+=======
+// Marketing related icons import kiye hain
+import { Megaphone, Target, TrendingUp } from "lucide-react"; 
+>>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { CardSpotlight } from "@/components/ui/card-spotlight";
@@ -29,6 +34,7 @@ const services = [
         description:
             "Specialized property marketing with CRM integration and full-funnel E-commerce solutions to transform clicks into clients.",
         icon: <TrendingUp size={40} className="text-green-500" />, // Green theme color
+<<<<<<< HEAD
     },
     {
         title: "Flutter Development",
@@ -47,6 +53,8 @@ const services = [
         description:
             "Performing comprehensive testing and quality assurance to ensure software reliability and performance.",
         icon: <ShieldCheck size={40} className="text-gray-900 dark:text-gray-100" />,
+=======
+>>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
     },
 ];
 

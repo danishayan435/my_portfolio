@@ -26,10 +26,14 @@ export default function Footer() {
               <Facebook className="w-6 h-6 text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300" />
             </Link>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <Link href="https://www.linkedin.com/in/fizza-munir-aa054a316/" target="_blank">
 =======
             <Link href="https://www.linkedin.com/in/muhammad-danish-marketer?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">
 >>>>>>> 07a40eb (My Portfolio)
+=======
+            <Link href="https://www.linkedin.com/in/muhammad-danish-marketer?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">
+>>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
               <Linkedin className="w-6 h-6 text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300" />
             </Link>
             <Link href="mailto:danishayan543@gmail.com">

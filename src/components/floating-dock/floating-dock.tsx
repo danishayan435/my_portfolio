@@ -31,10 +31,14 @@ export function FloatingDockDemo() {
           <IconBrandLinkedinFilled className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
 <<<<<<< HEAD
+<<<<<<< HEAD
         href: "https://www.linkedin.com/in/fizza-munir-aa054a316/",
 =======
         href: "https://www.linkedin.com/in/muhammad-danish-marketer?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
 >>>>>>> 07a40eb (My Portfolio)
+=======
+        href: "https://www.linkedin.com/in/muhammad-danish-marketer?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+>>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
       },
   
     {
@@ -50,10 +54,14 @@ export function FloatingDockDemo() {
         <IconFileCvFilled className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
 <<<<<<< HEAD
+<<<<<<< HEAD
       href: "https://drive.google.com/file/d/1f4t-NkvF2uQsHwIKm9RoF6x3tBKdjsyL/view?usp=sharing",
 =======
       href: "https://drive.google.com/file/d/1-iArUTMiPm9i4XmD5bKbdiiNg3kzTFZE/view?usp=drivesdk",
 >>>>>>> 07a40eb (My Portfolio)
+=======
+      href: "https://drive.google.com/file/d/1-iArUTMiPm9i4XmD5bKbdiiNg3kzTFZE/view?usp=drivesdk",
+>>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
     },
   ];
   return (
