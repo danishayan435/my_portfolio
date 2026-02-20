@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, Linkedin, Github, Phone } from "lucide-react";
+import { Mail, Linkedin, Facebook, Phone } from "lucide-react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { useRef, useState } from "react";
@@ -81,18 +81,18 @@ export default function ContactPage() {
               <ul className="space-y-4">
                 <li className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                   <Mail className="w-5 h-5" />
-                  <Link href="mailto:fizamuneer0101@gmail.com" className="hover:underline">
-                    fizamuneer0101@gmail.com
+                  <Link href="mailto:danishayan543@gmail.com" className="hover:underline">
+                    danishayan543@gmail.com
                   </Link>
                 </li>
                 <li className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                   <Phone className="w-5 h-5" />
-                  <span>+92 3284008871</span>
+                  <span>+92 335 4931309</span>
                 </li>
                 <li className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                   <Linkedin className="w-5 h-5" />
                   <Link
-                    href="https://www.linkedin.com/in/fizza-muneer-aa054a316/"
+                    href="https://www.linkedin.com/in/muhammad-danish-marketer?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
                     target="_blank"
                     className="hover:underline"
                   >
@@ -100,13 +100,13 @@ export default function ContactPage() {
                   </Link>
                 </li>
                 <li className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
-                  <Github className="w-5 h-5" />
+                  <Facebook className="w-5 h-5" />
                   <Link
-                    href="https://github.com/fmughalishere"
+                    href="https://www.facebook.com/share/17tvNLE2hP/?mibextid=wwXIfr"
                     target="_blank"
                     className="hover:underline"
                   >
-                    Github
+                    Facebook
                   </Link>
                 </li>
               </ul>

@@ -9,7 +9,7 @@ import WhatIDo from "@/components/pages/what-i-do/what-i-do";
 import Footer from "@/components/footer/footer";
 import ShortExperience from "@/components/pages/short-experience/short-experience";
 import Skills from "@/components/pages/skills/skills";
-import ProjectSection from "@/components/pages/projects/projects";
+import Campaigns from "@/components/pages/campaigns/campaigns";
 import ContactSection from "@/components/pages/contact/contact";
 
 export default function Home() {
@@ -45,11 +45,10 @@ export default function Home() {
       <ShortExperience />
       {/* Scroll Button */}
 
-      {/* Skills Section */}
       <Skills />
 
       {/* projects section  */}
-      <ProjectSection />
+      <Campaigns />
 
 
       {/* get in touch section  */}

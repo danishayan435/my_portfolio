@@ -12,7 +12,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsFadingOut(true);
-      setTimeout(() => setIsLoaded(true), 500); // Wait for fade-out
+      setTimeout(() => setIsLoaded(true), 500);
     }, 2000); // Preloader duration
 
     return () => clearTimeout(timer);

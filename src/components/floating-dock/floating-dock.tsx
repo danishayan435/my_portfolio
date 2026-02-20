@@ -1,7 +1,7 @@
 import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
-  IconBrandGithubFilled,
+  IconBrandFacebookFilled,
   IconBrandLinkedinFilled,
   IconBrandGmail,
   IconFileCvFilled,
@@ -12,25 +12,25 @@ import {
 export function FloatingDockDemo() {
   const links = [
     {
-      title: "GitHub",
+      title: "Facebook",
       icon: (
-        <IconBrandGithubFilled className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandFacebookFilled className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://github.com/fmughalishere",
+      href: "https://www.facebook.com/share/17tvNLE2hP/?mibextid=wwXIfr",
     },
     {
         title: "Email",
         icon: (
           <IconBrandGmail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
-        href: "mailto:fizamuneer0101@gmail.com",
+        href: "mailto:danishayan543@gmail.com",
       },
       {
         title: "LinkedIn",
         icon: (
           <IconBrandLinkedinFilled className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
-        href: "https://www.linkedin.com/in/fizza-muneer-aa054a316/",
+        href: "https://www.linkedin.com/in/muhammad-danish-marketer?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
       },
   
     {
@@ -38,14 +38,14 @@ export function FloatingDockDemo() {
       icon: (
         <IconBrandInstagramFilled className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://www.instagram.com/mern_dev_fiza/",
+      href: "https://www.instagram.com/adopt.growth_brandsolutions?igsh=MnFtbzZraDhvZ2cy&utm_source=qr",
     },
     {
       title: "Resume",
       icon: (
         <IconFileCvFilled className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://drive.google.com/file/d/1tBeaNPm5rPd5D2qJzVcUjS3NPoZWSr2N/view?usp=drive_open",
+      href: "https://drive.google.com/file/d/1-iArUTMiPm9i4XmD5bKbdiiNg3kzTFZE/view?usp=drivesdk",
     },
   ];
   return (
