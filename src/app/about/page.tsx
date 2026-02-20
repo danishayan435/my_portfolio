@@ -12,12 +12,10 @@ import { About } from "@/components/pages/about/about";
 export default function AboutPage() {
     return (
         <div>
-            {/* Lamp Effect Section */}
             <About/>
             
             <section className="min-h-screen py-20 px-6 bg-white dark:bg-black transition-colors duration-300">
                 <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
-                    {/* Profile Image - Updated to Danish's About Image */}
                     <motion.div
                         initial={{ opacity: 0, x: -40 }}
                         whileInView={{ opacity: 1, x: 0 }}
@@ -25,15 +23,13 @@ export default function AboutPage() {
                         viewport={{ once: true }}
                     >
                         <Image
-                            src="/images/danish-profile.jpeg" // Is name se image rename kar lena
+                            src="/images/danish-profile.jpeg"
                             alt="Muhammad Danish"
                             width={500}
                             height={500}
                             className="rounded-2xl w-full object-cover shadow-2xl border-b-8 border-orange-500"
                         />
                     </motion.div>
-
-                    {/* About Text - Marketing Focused */}
                     <motion.div
                         initial={{ opacity: 0, x: 40 }}
                         whileInView={{ opacity: 1, x: 0 }}
@@ -76,14 +72,9 @@ export default function AboutPage() {
                             <FaGraduationCap className="text-purple-500" /> Education
                         </h2>
                         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-<<<<<<< HEAD
                             🎓 Bachelors of Science in Computer Science<br />
                             📍 University of the Punjab, Lahore Pakistan<br />
                             📅 Graduation: July 2025
-=======
-                            🎓 <b>Associate Degree in Computer Science</b><br />
-                            This technical edge allows me to master algorithms, automation, and CRM integrations faster than traditional marketers.
->>>>>>> 07a40eb (My Portfolio)
                         </p>
                     </motion.div>
 
@@ -99,19 +90,12 @@ export default function AboutPage() {
                             <FaMapMarkerAlt className="text-orange-500" /> Global Perspective
                         </h2>
                         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-<<<<<<< HEAD
-                            📍 Lahore, Pakistan<br />
-                            Available for Onsite, remote & freelance opportunities.
-                        </p>
-                    </motion.div>
-=======
                             📍 Based in <b>Lahore, Pakistan</b><br />
                             Experience managing markets in **USA, UK, and Dubai**. Speaker at the EcomX Summit 2025, Dubai.
                         </p>
                     </motion.div>
 
                     {/* Marketing Mastery Skills */}
->>>>>>> 07a40eb (My Portfolio)
                     <motion.div
                         initial={{ opacity: 0, y: 40 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -122,17 +106,6 @@ export default function AboutPage() {
                         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white flex items-center gap-2 mb-4">
                             <BiTargetLock className="text-green-500" /> Core Specialization
                         </h2>
-<<<<<<< HEAD
-                        <ul className="text-gray-700 dark:text-gray-300 grid grid-cols-2 gap-y-2 list-disc list-inside">
-                            <li>JavaScript / TypeScript</li>
-                            <li>React / Next.js</li>
-                            <li>Node.js / Express</li>
-                            <li>MySQL / MongoDB</li>
-                            <li>Tailwind CSS / Framer Motion</li>
-                            <li>REST APIs / Firebase / JWT </li>
-                            <li>Wordpress</li>
-                            <li>Flutter Development</li>
-=======
                         <ul className="text-gray-700 dark:text-gray-300 grid grid-cols-2 gap-y-2 font-medium">
                             <li>🎯 Meta Ads (Expert)</li>
                             <li>🏠 Real Estate Marketing</li>
@@ -140,7 +113,6 @@ export default function AboutPage() {
                             <li>🔍 GMB Optimization</li>
                             <li>✍️ Content Strategy</li>
                             <li>🤖 Marketing Automation</li>
->>>>>>> 07a40eb (My Portfolio)
                         </ul>
                     </motion.div>
 
@@ -156,14 +128,8 @@ export default function AboutPage() {
                             <FaRocket className="text-blue-500" /> Key Impact
                         </h2>
                         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-<<<<<<< HEAD
-                            💼 Frontend Developer @ Kreatorz.co<br />
-                             And MERN Stack Developer @ Techxum.com<br />
-                            🚀 Built scalable dashboards, APIs, and responsive UIs with React & Node.js.
-=======
                             🚀 Founder of <b>Adopt Growth</b> Agency.<br />
                             💼 Managing complex funnels for Real Estate giants and E-commerce brands with proven 10x ROI.
->>>>>>> 07a40eb (My Portfolio)
                         </p>
                     </motion.div>
                 </div>
