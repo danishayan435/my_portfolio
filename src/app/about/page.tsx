@@ -72,7 +72,7 @@ export default function AboutPage() {
                             <FaGraduationCap /> Education
                         </h2>
                         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                            🎓 B.Sc. in Computer Science<br />
+                            🎓 Bachelors of Science in Computer Science<br />
                             📍 University of the Punjab, Lahore Pakistan<br />
                             📅 Graduation: July 2025
                         </p>
@@ -90,7 +90,7 @@ export default function AboutPage() {
                         </h2>
                         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
                             📍 Lahore, Pakistan<br />
-                            Available for remote & freelance opportunities.
+                            Available for Onsite, remote & freelance opportunities.
                         </p>
                     </motion.div>
 
@@ -109,8 +109,10 @@ export default function AboutPage() {
                             <li>React / Next.js</li>
                             <li>Node.js / Express</li>
                             <li>MySQL / MongoDB</li>
-                            <li>Tailwind CSS / SCSS</li>
-                            <li>REST APIs / Firebase</li>
+                            <li>Tailwind CSS / Framer Motion</li>
+                            <li>REST APIs / Firebase / JWT </li>
+                            <li>Wordpress</li>
+                            <li>Flutter Development</li>
                         </ul>
                     </motion.div>
 
@@ -125,7 +127,8 @@ export default function AboutPage() {
                             <FaBriefcase /> Experience
                         </h2>
                         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                            💼 Full Stack Developer @ Kreatorz.co<br />
+                            💼 Frontend Developer @ Kreatorz.co<br />
+                             And MERN Stack Developer @ Techxum.com<br />
                             🚀 Built scalable dashboards, APIs, and responsive UIs with React & Node.js.
                         </p>
                     </motion.div>

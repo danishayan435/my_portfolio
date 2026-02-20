@@ -38,7 +38,7 @@ export function Header() {
                     <p className="md:text-3xl text-xl text-slate-400 mt-4 font-gotham font-bold animate-pulse">Fizza Munir</p>
                     <p className="text-[18px] text-slate-500 font-gotham font-semibold">Full Stack Developer</p>
                     <p className="text-sm text-neutral-400 mt-3">
-                        With a year of experience in Full Stack development and a strong foundation in computer science, I
+                        With 2+ years of experience in Full Stack development and a strong foundation in computer science, I
                         specialize in JavaScript, Next.js, and Node.js. Passionate about problem-solving, I excel at building
                         efficient solutions while collaborating effectively in dynamic team environments.
                     </p>

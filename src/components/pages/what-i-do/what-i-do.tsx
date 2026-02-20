@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { Code, Server, Settings } from "lucide-react";
+import { Code, Server, Settings, Smartphone, Globe, ShieldCheck, } from "lucide-react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { CardSpotlight } from "@/components/ui/card-spotlight";
@@ -24,6 +24,24 @@ const services = [
         description:
             "Automating deployments with Docker, CI/CD pipelines, and efficient DevOps workflows to streamline development.",
         icon: <Settings size={40} className="text-gray-900 dark:text-gray-100" />,
+    },
+    {
+        title: "Flutter Development",
+        description:
+            "Building cross-platform mobile applications using Flutter and Dart for iOS and Android.",
+        icon: <Smartphone size={40} className="text-gray-900 dark:text-gray-100" />,
+    },
+    {
+        title: "Wordpress Development",
+        description:
+            "Developing custom WordPress themes and plugins for modern, responsive websites.",
+        icon: <Globe size={40} className="text-gray-900 dark:text-gray-100" />,
+    },
+    {
+        title: "SQA & Testing",
+        description:
+            "Performing comprehensive testing and quality assurance to ensure software reliability and performance.",
+        icon: <ShieldCheck size={40} className="text-gray-900 dark:text-gray-100" />,
     },
 ];
 

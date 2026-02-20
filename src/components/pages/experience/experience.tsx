@@ -47,6 +47,26 @@ const experiences = [
             },
         ],
     },
+    {
+        role: "MERN Stack Developer",
+        company: "Techxum.com",
+        period: "Dec 2023 - May 2024",
+        description: [
+            "Developed scalable APIs and database solutions with Node.js, Express, and MySQL.",
+            "Building modern, fast, and accessible web applications with Next.js, TypeScript, Redux, TailwindCSS, etc.",
+            "Collaborate in an agile team using GitHub for version control.",
+        ],
+        projects: [
+            {
+                name: "Techxum.com | IT Services Company Website",
+                details: [
+                    "Built engaging Add to Cart, Wishlist, and Checkout features for a seamless shopping experience.",
+                    "Designed dynamic User and Admin Dashboards for efficient management.",
+                ],
+                tech: ["Next.js", "TypeScript", "NodeJs", "ExpressJs", "MongoDB", "TailwindCSS", "Wordpress", "Netlify", "Hostinger"],
+            },
+        ],
+    },
 ];
 
 export default function Experiences() {

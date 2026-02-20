@@ -25,7 +25,7 @@ export default function ContactSection() {
                         fizamuneer0101@gmail.com
                     </Link>
                     <Link
-                        href="https://www.linkedin.com/in/fizza-muneer-aa054a316/"
+                        href="https://www.linkedin.com/in/fizza-munir-aa054a316/"
                         target="_blank"
                         className="flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:underline"
                     >

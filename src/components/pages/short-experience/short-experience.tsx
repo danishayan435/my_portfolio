@@ -6,6 +6,14 @@ import Link from "next/link";
 
 const shortExperiences = [
     {
+        role: "MERN Stack Developer",
+        company: "As Freelancer",
+        period: " 2023 - Currently",
+        description: [
+            "Collaborated with backend and ui teams to improve API performance.",
+        ],
+    },
+    {
         role: "Associate Software Engineer",
         company: "Kreatorz.co",
         period: "Nov 2024 - Oct 2025",
@@ -20,10 +28,19 @@ const shortExperiences = [
         company: "Kreatorz.co",
         period: "May 2024 - Oct 2024",
         description: [
-            "Built modern, fast, and accessible web applications with Next.js, TypeScript, and TailwindCSS.",
+            "Built web applications with React.js, Next.js, TypeScript, and TailwindCSS, Framer Motion, etc.",
             "Collaborated with backend and ui teams to improve API performance and UX.",
         ],
     },
+    {
+        role: "MERN Stack Developer",
+        company: "Techxum.com",
+        period: " Dec 2023 - May 2024",
+        description: [
+            "Built modern, fast, and accessible web applications with Next.js, TypeScript, and TailwindCSS.",
+        ],
+    },
+    
 ];
 
 export default function ShortExperience() {

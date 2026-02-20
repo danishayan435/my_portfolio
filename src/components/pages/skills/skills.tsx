@@ -14,7 +14,7 @@ const categorizedSkills = [
     {
         category: "Programming Languages",
         icon: Code2,
-        skills: ["HTML5", "CSS3", "JavaScript", "TypeScript"],
+        skills: ["HTML5", "CSS3", "JavaScript", "TypeScript", "Dart"],
     },
     {
         category: "Frontend Frameworks",

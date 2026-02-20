@@ -3,8 +3,8 @@
 const nextConfig = {
   output: 'export',
   images: {
+    unoptimized: true,
     remotePatterns: [
-      
       {
         protocol: "https",
         hostname: "aceternity.com",
@@ -23,7 +23,6 @@ const nextConfig = {
         port: "",
         pathname: "/**",
       },
-
     ]
   },
 };
