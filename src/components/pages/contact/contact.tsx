@@ -1,7 +1,7 @@
 "use client";
 
 import MovingBorderButton from "@/components/button/moving-border-button";
-import { Mail, Linkedin, Github } from "lucide-react";
+import { Mail, Linkedin, Facebook } from "lucide-react";
 import Link from "next/link";
 import { FaLocationArrow } from "react-icons/fa6";
 
@@ -18,14 +18,18 @@ export default function ContactSection() {
 
                 <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mb-10">
                     <Link
-                        href="mailto:fizamuneer0101@gmail.com"
+                        href="mailto:danishayan543@gmail.com"
                         className="flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:underline"
                     >
                         <Mail className="w-5 h-5" />
-                        fizamuneer0101@gmail.com
+                        danishayan543@gmail.com
                     </Link>
                     <Link
+<<<<<<< HEAD
                         href="https://www.linkedin.com/in/fizza-munir-aa054a316/"
+=======
+                        href="https://www.linkedin.com/in/muhammad-danish-marketer?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+>>>>>>> 07a40eb (My Portfolio)
                         target="_blank"
                         className="flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:underline"
                     >
@@ -33,17 +37,17 @@ export default function ContactSection() {
                         LinkedIn
                     </Link>
                     <Link
-                        href="https://github.com/fmughalishere"
+                        href="https://www.facebook.com/share/17tvNLE2hP/?mibextid=wwXIfr"
                         target="_blank"
                         className="flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:underline"
                     >
-                        <Github className="w-5 h-5" />
-                        GitHub
+                        <Facebook className="w-5 h-5" />
+                        Facebook
                     </Link>
                 </div>
 
                 <Link
-                    href="fizamuneer0101@gmail.com"
+                    href="mailto:danishayan543@gmail.com"
                     className="inline-block "
                 >
                     <MovingBorderButton

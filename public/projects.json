@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
       "id": "1",
       "img": "/images/beauty-here.png",
       "name": "Beauty Here",
@@ -120,3 +121,77 @@
     }
   ]
   
+=======
+    "name": "Builtz Residencia - Real Estate Leads",
+    "description": "Executed a high-converting lead generation funnel for luxury cottages, generating 100+ high-quality leads using Meta Ads and CRM integration.",
+    "img": "/images/project-builtz-residencia.jpeg",
+    "resultsLink": "/images/result-leads-realestate.jpeg",
+    "liveLink": "https://facebook.com/builtzresidencia",
+    "technology": "Meta Ads, Lead Gen, Real Estate"
+  },
+  {
+    "name": "Hamza Store - E-com Scaling",
+    "description": "Achieved massive growth for a kitchen gadgets store by optimizing pixel data and scaling ad spend with a proven 10x ROAS.",
+    "img": "/images/hamza-store.jpeg",
+    "resultsLink": "/images/result-roas-1.jpeg",
+    "liveLink": "https://hamzastore.pk",
+    "technology": "E-commerce, Shopify, ROAS Scaling"
+  },
+  {
+    "name": "USA Business Management (DM Worx)",
+    "description": "Managing a diverse portfolio of US-based accounts, focusing on brand consistency and upscale digital positioning in the North American market.",
+    "img": "/images/mgmt-assets-usa.jpeg",
+    "resultsLink": "/images/result-msg-3.jpeg",
+    "liveLink": "https://dmworxllc.com",
+    "technology": "Account Management, US Market, Strategy"
+  },
+  {
+    "name": "Zahra Stores - Ramazan Sale Campaign",
+    "description": "Managed full-scale seasonal marketing for home & kitchen essentials, resulting in over 1,400+ messaging conversations in 30 days.",
+    "img": "/images/project-zahra-stores.jpeg",
+    "resultsLink": "/images/result-msg-2.jpeg",
+    "liveLink": "https://zahrastores.pk",
+    "technology": "Meta Ads, Seasonal Sales, E-commerce"
+  },
+  {
+    "name": "Sharja Realestate - Authorized Sales Partner",
+    "description": "Lead generation and brand building for authorized RUDA partners, focusing on high-ticket property investment leads.",
+    "img": "/images/project-sharja-realestate.jpeg",
+    "resultsLink": "/images/result-calls-performance.jpeg",
+    "liveLink": "https://facebook.com/sharjarealestate",
+    "technology": "Real Estate, Sales Strategy, Meta Ads"
+  },
+  {
+    "name": "Luxury Fashion Growth (Resham & Fabric Store)",
+    "description": "Scaling apparel brands through creative storytelling and high-engagement reels, achieving peak visibility for new collection launches.",
+    "img": "/images/project-resham-brand.jpeg",
+    "resultsLink": "/images/result-roas-2.jpeg",
+    "liveLink": "https://thefabricstore.pk",
+    "technology": "Fashion Marketing, Branding, Creative Ads"
+  },
+  {
+    "name": "Strategy & Competitor Analysis (GMB SEO)",
+    "description": "In-depth keyword research and competitor analysis for local businesses, increasing search visibility and map views by 40%.",
+    "img": "/images/strategy-keywords-usa.jpeg",
+    "resultsLink": "/images/strategy-competitor-analysis.jpeg",
+    "liveLink": "#",
+    "technology": "GMB SEO, Keyword Research, Data Analysis"
+  },
+  {
+    "name": "NexSkill & Ed-Tech Growth",
+    "description": "Driving enrollments for skill-based programs through targeted audience segmentation and performance-driven ad campaigns.",
+    "img": "/images/client-nexskill.jpeg",
+    "resultsLink": "/images/result-msg-3.jpeg",
+    "liveLink": "https://nexskill.com",
+    "technology": "Ed-Tech, Conversions, Meta Ads"
+  },
+  {
+    "name": "Detail Hub - Premium Car Detailing",
+    "description": "Social media management and lead generation for premium automotive services, focusing on high-intent customer acquisition.",
+    "img": "/images/client-car-detailing.jpeg",
+    "resultsLink": "/images/result-msg-1.jpeg",
+    "liveLink": "https://instagram.com/detai_lhub",
+    "technology": "Lead Gen, Auto Industry, Content Mgmt"
+  }
+]
+>>>>>>> 07a40eb (My Portfolio)
