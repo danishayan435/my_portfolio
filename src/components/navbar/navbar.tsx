@@ -99,7 +99,7 @@ const Navbar = () => {
                             )}
                         </button>
                         <div className="hidden md:flex">
-                            <Link href={`https://drive.google.com/file/d/1tBeaNPm5rPd5D2qJzVcUjS3NPoZWSr2N/view`} target="_blank">
+                            <Link href={`https://drive.google.com/file/d/1f4t-NkvF2uQsHwIKm9RoF6x3tBKdjsyL/view?usp=sharing`} target="_blank">
                                 <AnimatedButton text="Download CV" />
                             </Link>
                         </div>
@@ -144,7 +144,7 @@ const Navbar = () => {
                             ))}
                         </div>
                         <div className="block md:hidden mx-5 pb-4">
-                            <Link href={`https://drive.google.com/file/d/1f4t-NkvF2uQsHwIKm9RoF6x3tBKdjsyL/view?usp=drive_link`} target="_blank">
+                            <Link href={`https://drive.google.com/file/d/1f4t-NkvF2uQsHwIKm9RoF6x3tBKdjsyL/view?usp=sharing`} target="_blank">
                                 <AnimatedButton text="Download CV" />
                             </Link>
                         </div>

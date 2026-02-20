@@ -30,7 +30,7 @@ export function FloatingDockDemo() {
         icon: (
           <IconBrandLinkedinFilled className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
-        href: "https://www.linkedin.com/in/fizza-muneer-aa054a316/",
+        href: "https://www.linkedin.com/in/fizza-munir-aa054a316/",
       },
   
     {
@@ -45,7 +45,7 @@ export function FloatingDockDemo() {
       icon: (
         <IconFileCvFilled className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://drive.google.com/file/d/1tBeaNPm5rPd5D2qJzVcUjS3NPoZWSr2N/view?usp=drive_open",
+      href: "https://drive.google.com/file/d/1f4t-NkvF2uQsHwIKm9RoF6x3tBKdjsyL/view?usp=sharing",
     },
   ];
   return (
