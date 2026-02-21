@@ -53,7 +53,7 @@ export function Header() {
                             </Link>
                         </div>
                         <div className="w-[50%]">
-                            <Link href={"/projects"} className="w-full">                            
+                            <Link href={"/campaigns"} className="w-full">                            
                                 <MovingBorderButton
                                     title="View My Campaigns"
                                     icon={<FaLocationArrow />}
