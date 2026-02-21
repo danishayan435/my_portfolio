@@ -22,6 +22,7 @@ export default function ProjectSection() {
       try {
         const res = await fetch("/projects.json");
         const data = await res.json();
+        /*eslint-disable @typescript-eslint/no-explicit-any */
         const formatted = data.map((p: any) => ({
           title: p.name,
           description: p.description,

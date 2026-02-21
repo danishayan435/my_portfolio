@@ -1,6 +1,4 @@
 "use client";
-
-// import { useEffect, useState } from "react";
 import { Header } from "@/components/pages/header/header";
 // import { ArrowDown, ArrowUp } from "lucide-react";
 // import { motion, AnimatePresence } from "framer-motion";

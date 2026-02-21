@@ -85,7 +85,7 @@ export default function ServicesPage() {
                         className="text-gray-600 dark:text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed"
                     >
                         Leveraging 15+ years of cross-border marketing experience to build scalable digital assets. 
-                        We don't just manage ads; we build bridges between brands and global audiences.
+                        We don&apos;t just manage ads; we build bridges between brands and global audiences.
                     </motion.p>
                 </div>
             </section>
@@ -129,8 +129,7 @@ export default function ServicesPage() {
                 <div className="max-w-5xl mx-auto rounded-[3rem] bg-gradient-to-r from-orange-500 to-purple-600 p-12 text-center text-white shadow-2xl">
                     <h2 className="text-3xl md:text-5xl font-black mb-6">READY TO SCALE YOUR BRAND?</h2>
                     <p className="text-white/80 text-lg mb-10 max-w-2xl mx-auto">
-                        Stop guessing and start growing. Book a strategy call today and let's map out your 12-month growth plan.
-                    </p>
+                    Stop guessing and start growing. Book a strategy call today and let&apos;s map out your 12-month growth plan.                    </p>
                     <Link 
                         href="/contact" 
                         className="inline-block bg-white text-orange-600 font-black px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-xl"

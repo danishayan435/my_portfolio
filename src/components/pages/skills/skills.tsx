@@ -63,11 +63,6 @@ export default function SkillsSection() {
                 <div className="grid md:grid-cols-2 gap-8">
                     {categorizedSkills.map((group, i) => {
                         const Icon = group.icon;
-                        const colorClass = 
-                            group.color === "orange" ? "blue-600 dark:text-orange-400" : // Using blue-600 for base but actually mapping to theme
-                            group.color === "purple" ? "purple-600 dark:text-purple-400" : 
-                            "green-600 dark:text-green-400";
-                        
                         const bgClass = 
                             group.color === "orange" ? "bg-orange-100 dark:bg-orange-900/20" : 
                             group.color === "purple" ? "bg-purple-100 dark:bg-purple-900/20" : 
