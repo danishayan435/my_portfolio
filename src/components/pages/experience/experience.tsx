@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Briefcase, ChevronDown, ChevronUp, BarChart3 } from "lucide-react";
+import { ChevronDown, ChevronUp, BarChart3 } from "lucide-react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { GlowingEffect } from "@/components/ui/glowing-effect";
@@ -11,7 +11,6 @@ const experiences = [
         role: "Social Media Manager",
         company: "DM Worx LLC (USA)",
         period: "Jan 2026 - Present",
-<<<<<<< HEAD
         description: [
             "Managing a diverse portfolio of North American clients from West Chester, PA.",
             "Architecting high-end social media strategies that bridge the gap between global brands and their target audience.",
@@ -48,61 +47,6 @@ const experiences = [
                     "Integrated CRM automation with Meta Ads to reduce lead response time by 60%.",
                 ],
                 tech: ["Meta Ads Manager", "Shopify Marketing", "Lead Funnels", "CRM Integration", "Pixel/CAPI"],
-            },
-        ],
-        accent: "purple"
-    },
-    {
-        role: "MERN Stack Developer",
-        company: "Techxum.com",
-        period: "Dec 2023 - May 2024",
-=======
->>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
-        description: [
-            "Managing a diverse portfolio of North American clients from West Chester, PA.",
-            "Architecting high-end social media strategies that bridge the gap between global brands and their target audience.",
-            "Driving brand engagement through technical analysis and creative storytelling.",
-        ],
-        projects: [
-            {
-<<<<<<< HEAD
-                name: "Techxum.com | IT Services Company Website",
-                details: [
-                    "Built engaging Add to Cart, Wishlist, and Checkout features for a seamless shopping experience.",
-                    "Designed dynamic User and Admin Dashboards for efficient management.",
-                ],
-                tech: ["Next.js", "TypeScript", "NodeJs", "ExpressJs", "MongoDB", "TailwindCSS", "Wordpress", "Netlify", "Hostinger"],
-=======
-                name: "US Local Market Domination",
-                details: [
-                    "Optimized GMB profiles and social presence for local service businesses, resulting in a 40% increase in map views.",
-                    "Implemented automated content workflows ensuring 100% brand consistency across all platforms.",
-                    "Analyzed competitor data to pivot strategies for maximum market share in the US territory.",
-                ],
-                tech: ["Meta Business Suite", "GMB SEO", "LinkedIn Ads", "Competitor Analysis", "Content Planning"],
-            },
-        ],
-        accent: "orange"
-    },
-    {
-        role: "Founder & Digital Marketing Manager",
-        company: "Adopt Growth",
-        period: "July 2010 - Present",
-        description: [
-            "Founded and scaled a full-service marketing agency focusing on performance-driven growth.",
-            "Specialized in the Real Estate and E-commerce sectors with a focus on ROI and lead quality.",
-            "Leveraging 15+ years of experience to mentor startups and scale established brands globally.",
-        ],
-        projects: [
-            {
-                name: "Real Estate & E-com Scaling",
-                details: [
-                    "Generated 500+ high-quality leads for Builtz Residencia and Anayaa Homes via targeted funnel strategies.",
-                    "Achieved a consistent 8x to 10x ROAS for multiple E-commerce stores (Hamza Store, Zahra Stores).",
-                    "Integrated CRM automation with Meta Ads to reduce lead response time by 60%.",
-                ],
-                tech: ["Meta Ads Manager", "Shopify Marketing", "Lead Funnels", "CRM Integration", "Pixel/CAPI"],
->>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
             },
         ],
         accent: "purple"
@@ -139,13 +83,10 @@ export default function Experiences() {
                             transition={{ duration: 0.6, delay: index * 0.2, ease: "easeOut" }}
                             className="relative mb-16"
                         >
-                            {/* Timeline Dot */}
                             <div className={`absolute -left-[38px] md:-left-[54px] top-0 rounded-full w-8 h-8 flex items-center justify-center shadow-lg transition-colors
                                 ${exp.accent === 'orange' ? 'bg-orange-500' : 'bg-purple-600'}`}>
                                 <BarChart3 className="text-white" size={16} />
                             </div>
-
-                            {/* Experience Card */}
                             <GlowingEffect
                                 spread={40}
                                 glow={true}
@@ -172,8 +113,6 @@ export default function Experiences() {
                                         </li>
                                     ))}
                                 </ul>
-
-                                {/* Desktop View: Key Campaigns */}
                                 <div className="hidden md:block mt-6">
                                     <h4 className="text-sm font-black text-gray-400 uppercase tracking-widest mb-3">Key Campaigns & Outcomes:</h4>
                                     {exp.projects.map((project, i) => (
@@ -200,8 +139,6 @@ export default function Experiences() {
                                         </div>
                                     ))}
                                 </div>
-
-                                {/* Mobile View: Accordion */}
                                 <div className="md:hidden mt-4">
                                     <button
                                         onClick={() => setOpenIndex(openIndex === index ? null : index)}

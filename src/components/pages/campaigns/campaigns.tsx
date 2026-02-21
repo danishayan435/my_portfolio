@@ -30,7 +30,7 @@ export default function ProjectSection() {
           live: p.liveLink || "#",
           tech: p.technology.split(",").map((t: string) => t.trim()),
         }));
-        setProjects(formatted.slice(0, 3)); // Home page par sirf 3
+        setProjects(formatted.slice(0, 3));
       } catch (err) { console.error(err); }
     };
     fetchProjects();
@@ -55,7 +55,6 @@ export default function ProjectSection() {
           ))}
         </div>
         <div className="mt-12 text-center">
-          {/* Link ko /projects se /campaigns kar diya */}
           <Link href="/campaigns" className="px-8 py-3 rounded-full bg-gradient-to-r from-orange-500 to-purple-600 text-white font-bold">
             Explore All Campagins →
           </Link>

@@ -14,29 +14,23 @@ const shortExperiences = [
             "Developing upscale digital strategies to increase brand visibility and engagement in the North American market.",
             "Implementing data-driven workflows for consistent brand messaging across Instagram, LinkedIn, and Facebook.",
         ],
-        themeColor: "from-orange-500/50 via-purple-500/30", // Orange theme
+        themeColor: "from-orange-500/50 via-purple-500/30",
     },
     {
         role: "Founder & Digital Marketing Manager",
         company: "Adopt Growth",
         period: "July 2010 - Present",
         description: [
-<<<<<<< HEAD
-<<<<<<< HEAD
             "Built web applications with React.js, Next.js, TypeScript, and TailwindCSS, Framer Motion, etc.",
             "Collaborated with backend and ui teams to improve API performance and UX.",
-=======
             "Established a full-service agency specializing in Meta Ads, Real Estate marketing, and E-commerce solutions.",
             "Helped hundreds of startups and brands scale revenue through performance marketing and automated lead generation.",
             "Specialized in high-converting property campaigns using CRM-integrated funnels and drone-based content.",
->>>>>>> 07a40eb (My Portfolio)
-=======
             "Established a full-service agency specializing in Meta Ads, Real Estate marketing, and E-commerce solutions.",
             "Helped hundreds of startups and brands scale revenue through performance marketing and automated lead generation.",
             "Specialized in high-converting property campaigns using CRM-integrated funnels and drone-based content.",
->>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
         ],
-        themeColor: "from-green-500/50 via-purple-500/30", // Green theme
+        themeColor: "from-green-500/50 via-purple-500/30",
     },
 ];
 

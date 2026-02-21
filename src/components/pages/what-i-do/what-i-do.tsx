@@ -1,17 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-<<<<<<< HEAD
-<<<<<<< HEAD
-import { Code, Server, Settings, Smartphone, Globe, ShieldCheck, } from "lucide-react";
-=======
-// Marketing related icons import kiye hain
 import { Megaphone, Target, TrendingUp } from "lucide-react"; 
->>>>>>> 07a40eb (My Portfolio)
-=======
-// Marketing related icons import kiye hain
-import { Megaphone, Target, TrendingUp } from "lucide-react"; 
->>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { CardSpotlight } from "@/components/ui/card-spotlight";
@@ -21,40 +11,19 @@ const services = [
         title: "Social Media Strategy",
         description:
             "Crafting high-end content, viral reels, and community management plans to build an upscale digital presence for global brands.",
-        icon: <Megaphone size={40} className="text-purple-500" />, // Purple theme color
+        icon: <Megaphone size={40} className="text-purple-500" />,
     },
     {
         title: "Performance Marketing",
         description:
             "Expert-level Meta Ads (Facebook/Instagram) and lead generation campaigns focused on maximizing ROI and scaling revenue.",
-        icon: <Target size={40} className="text-orange-500" />, // Orange theme color
+        icon: <Target size={40} className="text-orange-500" />,
     },
     {
         title: "Real Estate & E-com Growth",
         description:
             "Specialized property marketing with CRM integration and full-funnel E-commerce solutions to transform clicks into clients.",
-        icon: <TrendingUp size={40} className="text-green-500" />, // Green theme color
-<<<<<<< HEAD
-    },
-    {
-        title: "Flutter Development",
-        description:
-            "Building cross-platform mobile applications using Flutter and Dart for iOS and Android.",
-        icon: <Smartphone size={40} className="text-gray-900 dark:text-gray-100" />,
-    },
-    {
-        title: "Wordpress Development",
-        description:
-            "Developing custom WordPress themes and plugins for modern, responsive websites.",
-        icon: <Globe size={40} className="text-gray-900 dark:text-gray-100" />,
-    },
-    {
-        title: "SQA & Testing",
-        description:
-            "Performing comprehensive testing and quality assurance to ensure software reliability and performance.",
-        icon: <ShieldCheck size={40} className="text-gray-900 dark:text-gray-100" />,
-=======
->>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
+        icon: <TrendingUp size={40} className="text-green-500" />,
     },
 ];
 

@@ -25,15 +25,7 @@ export default function ContactSection() {
                         danishayan543@gmail.com
                     </Link>
                     <Link
-<<<<<<< HEAD
-<<<<<<< HEAD
-                        href="https://www.linkedin.com/in/fizza-munir-aa054a316/"
-=======
                         href="https://www.linkedin.com/in/muhammad-danish-marketer?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
->>>>>>> 07a40eb (My Portfolio)
-=======
-                        href="https://www.linkedin.com/in/muhammad-danish-marketer?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
->>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
                         target="_blank"
                         className="flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:underline"
                     >

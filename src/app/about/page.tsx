@@ -12,12 +12,9 @@ import { About } from "@/components/pages/about/about";
 export default function AboutPage() {
     return (
         <div>
-            {/* Lamp Effect Section */}
             <About/>
-            
             <section className="min-h-screen py-20 px-6 bg-white dark:bg-black transition-colors duration-300">
                 <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
-                    {/* Profile Image - Updated to Danish's About Image */}
                     <motion.div
                         initial={{ opacity: 0, x: -40 }}
                         whileInView={{ opacity: 1, x: 0 }}
@@ -25,15 +22,13 @@ export default function AboutPage() {
                         viewport={{ once: true }}
                     >
                         <Image
-                            src="/images/danish-profile.jpeg" // Is name se image rename kar lena
+                            src="/images/danish-profile.jpeg"
                             alt="Muhammad Danish"
                             width={500}
                             height={500}
                             className="rounded-2xl w-full object-cover shadow-2xl border-b-8 border-orange-500"
                         />
                     </motion.div>
-
-                    {/* About Text - Marketing Focused */}
                     <motion.div
                         initial={{ opacity: 0, x: 40 }}
                         whileInView={{ opacity: 1, x: 0 }}
@@ -61,10 +56,7 @@ export default function AboutPage() {
                         </div>
                     </motion.div>
                 </div>
-
-                {/* Detailed Sections */}
                 <div className="max-w-7xl mx-auto mt-24 grid md:grid-cols-2 gap-12">
-                    {/* Education - Technical Foundation */}
                     <motion.div
                         initial={{ opacity: 0, y: 40 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -80,8 +72,6 @@ export default function AboutPage() {
                             This technical edge allows me to master algorithms, automation, and CRM integrations faster than traditional marketers.
                         </p>
                     </motion.div>
-
-                    {/* Location & Global Reach */}
                     <motion.div
                         initial={{ opacity: 0, y: 40 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -97,8 +87,6 @@ export default function AboutPage() {
                             Experience managing markets in **USA, UK, and Dubai**. Speaker at the EcomX Summit 2025, Dubai.
                         </p>
                     </motion.div>
-
-                    {/* Marketing Mastery Skills */}
                     <motion.div
                         initial={{ opacity: 0, y: 40 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -118,8 +106,6 @@ export default function AboutPage() {
                             <li>🤖 Marketing Automation</li>
                         </ul>
                     </motion.div>
-
-                    {/* Career Highlights */}
                     <motion.div
                         initial={{ opacity: 0, y: 40 }}
                         whileInView={{ opacity: 1, y: 0 }}

@@ -66,7 +66,6 @@ export default function ContactPage() {
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-10  items-center">
-          {/* Contact Info */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -92,15 +91,7 @@ export default function ContactPage() {
                 <li className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                   <Linkedin className="w-5 h-5" />
                   <Link
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    href="https://www.linkedin.com/in/fizza-munir-aa054a316/"
-=======
                     href="https://www.linkedin.com/in/muhammad-danish-marketer?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
->>>>>>> 07a40eb (My Portfolio)
-=======
-                    href="https://www.linkedin.com/in/muhammad-danish-marketer?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
->>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
                     target="_blank"
                     className="hover:underline"
                   >
@@ -120,8 +111,6 @@ export default function ContactPage() {
               </ul>
             </div>
           </motion.div>
-
-          {/* EmailJS Form */}
           <motion.form
             ref={form}
             onSubmit={handleSubmit}

@@ -1,6 +1,4 @@
 "use client";
-
-import React from "react";
 import { motion } from "framer-motion";
 import { 
     Target, 
@@ -63,7 +61,6 @@ const services = [
 export default function ServicesPage() {
     return (
         <div className="bg-white dark:bg-black transition-colors duration-300">
-            {/* Hero Section */}
             <section className="py-24 px-6 bg-slate-50 dark:bg-gray-950">
                 <div className="max-w-7xl mx-auto text-center">
                     <motion.span 
@@ -92,8 +89,6 @@ export default function ServicesPage() {
                     </motion.p>
                 </div>
             </section>
-
-            {/* Services Grid */}
             <section className="py-20 px-6">
                 <div className="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {services.map((service, index) => (
@@ -105,7 +100,6 @@ export default function ServicesPage() {
                             viewport={{ once: true }}
                             className={`p-8 rounded-3xl bg-white dark:bg-gray-900 border ${service.color} border-opacity-20 hover:border-opacity-100 transition-all duration-500 shadow-sm hover:shadow-2xl group relative overflow-hidden`}
                         >
-                            {/* Icon Wrapper */}
                             <div className="w-16 h-16 rounded-2xl bg-gray-50 dark:bg-gray-800 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                                 {service.icon}
                             </div>
@@ -116,8 +110,6 @@ export default function ServicesPage() {
                             <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed mb-6">
                                 {service.description}
                             </p>
-
-                            {/* Features List */}
                             <div className="space-y-3 mb-8">
                                 {service.features.map((feature, i) => (
                                     <div key={i} className="flex items-center gap-2 text-xs font-semibold text-gray-700 dark:text-gray-300">
@@ -126,7 +118,6 @@ export default function ServicesPage() {
                                     </div>
                                 ))}
                             </div>
-
                             <Link href="/contact" className="inline-flex items-center gap-2 text-sm font-black text-orange-500 hover:gap-4 transition-all uppercase tracking-wider">
                                 Get Started <ArrowRight className="w-4 h-4" />
                             </Link>
@@ -134,8 +125,6 @@ export default function ServicesPage() {
                     ))}
                 </div>
             </section>
-
-            {/* CTA Section */}
             <section className="py-20 px-6">
                 <div className="max-w-5xl mx-auto rounded-[3rem] bg-gradient-to-r from-orange-500 to-purple-600 p-12 text-center text-white shadow-2xl">
                     <h2 className="text-3xl md:text-5xl font-black mb-6">READY TO SCALE YOUR BRAND?</h2>
@@ -150,7 +139,6 @@ export default function ServicesPage() {
                     </Link>
                 </div>
             </section>
-
             <Footer />
         </div>
     );

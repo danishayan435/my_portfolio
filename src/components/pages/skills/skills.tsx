@@ -2,32 +2,20 @@
 
 import { motion } from "framer-motion";
 import {
-    Target,      // For Paid Ads
-    Share2,      // For Social Media
-    Home,        // For Real Estate focus
-    TrendingUp,  // For Growth/Analytics
-    Cpu,         // For Technical/CS Background
-    PenTool,     // For Content/Creative
+    Target,
+    Share2,
+    Home,
+    TrendingUp,
+    Cpu,
+    PenTool,
 } from "lucide-react";
 
 const categorizedSkills = [
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        category: "Programming Languages",
-        icon: Code2,
-        skills: ["HTML5", "CSS3", "JavaScript", "TypeScript", "Dart"],
-=======
-=======
->>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
         category: "Paid Advertising (Meta Ads)",
         icon: Target,
         skills: ["Ads Manager", "Pixel & CAPI", "ROAS Scaling", "Budget Optimization", "Retargeting"],
         color: "orange",
-<<<<<<< HEAD
->>>>>>> 07a40eb (My Portfolio)
-=======
->>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
     },
     {
         category: "Social Media Management",
@@ -118,8 +106,6 @@ export default function SkillsSection() {
                                         </div>
                                     ))}
                                 </div>
-
-                                {/* Dynamic Glow on hover */}
                                 <div className={`absolute -inset-0.5 bg-gradient-to-r ${group.color === "orange" ? "from-orange-400" : group.color === "purple" ? "from-purple-400" : "from-green-400"} to-transparent opacity-0 group-hover:opacity-5 blur-xl transition duration-300 pointer-events-none rounded-2xl`} />
                             </motion.div>
                         );

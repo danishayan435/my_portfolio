@@ -1,5 +1,5 @@
 "use client";
-import { ExternalLink, TrendingUp, Target } from "lucide-react";
+import { ExternalLink, TrendingUp } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";

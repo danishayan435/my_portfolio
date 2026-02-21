@@ -51,17 +51,13 @@ const Navbar = () => {
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
-                    {/* Logo */}
                     <Link href="/" className="text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white uppercase">
                         MUHAMMAD <span className="text-orange-500">DANISH</span>
                     </Link>
-
-                    {/* Desktop Menu */}
                     <div className="hidden md:flex space-x-6">
                         {navItems.map((item) => (
                             <Link
                                 key={item}
-                                // Logic: Agar Home hai toh '/', warna folder name
                                 href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
                                 className="relative group text-gray-900 dark:text-gray-300 hover:text-orange-500 transition-colors duration-300 font-bold text-sm tracking-wide"
                             >
@@ -72,8 +68,6 @@ const Navbar = () => {
                             </Link>
                         ))}
                     </div>
-
-                    {/* Right Side Buttons */}
                     <div className="flex items-center space-x-4">
                         <button
                             onClick={toggleTheme}
@@ -86,18 +80,8 @@ const Navbar = () => {
                             )}
                         </button>
                         <div className="hidden md:flex">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                            <Link href={`https://drive.google.com/file/d/1f4t-NkvF2uQsHwIKm9RoF6x3tBKdjsyL/view?usp=sharing`} target="_blank">
-                                <AnimatedButton text="Download CV" />
-=======
                             <Link href={`#`} target="_blank">
                                 <AnimatedButton text="Get Strategy" /> 
->>>>>>> 07a40eb (My Portfolio)
-=======
-                            <Link href={`#`} target="_blank">
-                                <AnimatedButton text="Get Strategy" /> 
->>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
                             </Link>
                         </div>
                         <button
@@ -109,8 +93,6 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-
-            {/* Mobile Menu */}
             <AnimatePresence>
                 {isOpen && (
                     <motion.div
@@ -131,25 +113,6 @@ const Navbar = () => {
                                     {item}
                                 </Link>
                             ))}
-<<<<<<< HEAD
-<<<<<<< HEAD
-                        </div>
-                        <div className="block md:hidden mx-5 pb-4">
-                            <Link href={`https://drive.google.com/file/d/1f4t-NkvF2uQsHwIKm9RoF6x3tBKdjsyL/view?usp=sharing`} target="_blank">
-                                <AnimatedButton text="Download CV" />
-                            </Link>
-=======
-=======
->>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
-                            <div className="pt-4">
-                                <Link href={`#`} target="_blank" className="w-full inline-block text-center">
-                                    <AnimatedButton text="Get Strategy" />
-                                </Link>
-                            </div>
-<<<<<<< HEAD
->>>>>>> 07a40eb (My Portfolio)
-=======
->>>>>>> 07a40ebdf70e1b1b1b463140f78c4aa5bbbf2bce
                         </div>
                     </motion.div>
                 )}

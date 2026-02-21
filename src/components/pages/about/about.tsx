@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { motion } from "framer-motion";
 import { LampContainer } from "@/components/ui/lamp";
 
@@ -19,9 +18,7 @@ export function About() {
       >
         MUHAMMAD DANISH
       </motion.h1>
-      
-      {/* Sub-heading add ki hai experience ko highlight karne ke liye */}
-      <motion.p
+            <motion.p
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{
