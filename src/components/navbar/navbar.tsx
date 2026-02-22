@@ -2,16 +2,13 @@
 
 import { useState, useEffect, useRef } from "react";
 import { Bars3Icon, XMarkIcon, MoonIcon, SunIcon } from "@heroicons/react/24/solid";
-import { useTheme } from "@/providers/ThemeProviders";
 import Link from "next/link";
 import AnimatedButton from "../button/AnimatedButton";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Navbar = () => {
     const navItems = ["Home", "About", "Campaigns", "Services", "Experience", "Contact"];
-    
-    const { theme, toggleTheme } = useTheme();
-    const [isOpen, setIsOpen] = useState(false);
+        const [isOpen, setIsOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
     const navRef = useRef<HTMLDivElement | null>(null);
 
@@ -69,16 +66,6 @@ const Navbar = () => {
                         ))}
                     </div>
                     <div className="flex items-center space-x-4">
-                        <button
-                            onClick={toggleTheme}
-                            className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 hover:scale-110 transition-transform duration-300"
-                        >
-                            {theme === "light" ? (
-                                <MoonIcon className="w-5 h-5 text-gray-800" />
-                            ) : (
-                                <SunIcon className="w-5 h-5 text-yellow-400" />
-                            )}
-                        </button>
                         <div className="hidden md:flex">
                             <Link href={`#`} target="_blank">
                                 <AnimatedButton text="Get Strategy" /> 
