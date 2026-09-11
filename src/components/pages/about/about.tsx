@@ -28,7 +28,7 @@ export function About() {
         }}
         className="text-slate-400 text-center text-lg md:text-2xl mt-4 font-light tracking-[0.2em] uppercase"
       >
-        15+ Years of Marketing Excellence
+        3+ Years of Marketing Excellence
       </motion.p>
 
     </LampContainer>
