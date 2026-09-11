@@ -42,7 +42,7 @@ export default function ShortExperience() {
                     Professional Experience
                 </h1>
                 <p className="text-gray-700 dark:text-gray-300 text-center mb-5 md:mb-10 max-w-2xl mx-auto">
-                    A 15-year journey of driving operational excellence and digital growth for global brands and startups.
+                    A 3+ year journey of driving operational excellence and digital growth for global brands and startups.
                 </p>
 
                 <div className="grid md:grid-cols-2 gap-8">
