@@ -36,7 +36,7 @@ const experiences = [
         description: [
             "Founded and scaled a full-service marketing agency focusing on performance-driven growth.",
             "Specialized in the Real Estate and E-commerce sectors with a focus on ROI and lead quality.",
-            "Leveraging 15+ years of experience to mentor startups and scale established brands globally.",
+            "Leveraging 3+ years of experience to mentor startups and scale established brands globally.",
         ],
         projects: [
             {
