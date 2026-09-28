@@ -47,7 +47,7 @@ export function Header() {
                     </p>
 
                     <p className="text-sm sm:text-base text-gray-600 mt-3 leading-relaxed max-w-xl">
-                        With over 15 years of marketing excellence and a strong technical foundation in Computer Science,
+                        With over 3+ years of marketing excellence and a strong technical foundation in Computer Science,
                         I specialize in transforming digital presence into profitable assets. Currently serving as
                         a Social Media Manager at <b>DM Worx LLC (USA)</b>, I lead data-driven growth strategies
                         for global markets.

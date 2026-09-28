@@ -72,7 +72,7 @@ export default function Experiences() {
                     Professional Journey
                 </h1>
                 <p className="text-gray-700 dark:text-gray-300 text-center mb-5 md:mb-10 max-w-2xl mx-auto">
-                    A 15-year track record of turning digital presence into profitable assets for brands across Pakistan, Dubai, and the USA.
+                    A 3+ year track record of turning digital presence into profitable assets for brands across Pakistan, Dubai, and the USA.
                 </p>
                 <div className="relative border-l-4 border-gray-300 dark:border-gray-700 pl-6 md:pl-10">
                     {experiences.map((exp, index) => (
