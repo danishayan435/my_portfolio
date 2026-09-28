@@ -57,7 +57,7 @@ export default function SkillsSection() {
                     Expertise & Skills
                 </h2>
                 <p className="text-center text-gray-600 dark:text-gray-400 max-w-xl mx-auto mb-12">
-                    Combining a technical CS background with 15 years of digital marketing mastery to scale brands globally.
+                    Combining a technical CS background with 3+ years of digital marketing mastery to scale brands globally.
                 </p>
 
                 <div className="grid md:grid-cols-2 gap-8">
