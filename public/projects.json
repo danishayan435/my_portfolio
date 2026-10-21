@@ -70,5 +70,14 @@
     "resultsLink": "/images/result-msg-1.jpeg",
     "liveLink": "https://instagram.com/detai_lhub",
     "technology": "Lead Gen, Auto Industry, Content Mgmt"
+  },
+  {
+    "name": "Gifted Hands CT",
+    "description": "Managed call-generation campaigns for beauty services.",
+    "img": "/images/gifted-hands-ct-campaigns.png",
+    "resultsLink": "#",
+    "liveLink": "#",
+    "technology": "Beauty Services, Meta Ads, Call campaigns",
+    "resultsText": "278 calls placed across 3 campaigns, $3.57 per call, $991.46 total spend, 14.9K reach. Best campaign: 170 calls at $3.02 per call."
   }
 ]
