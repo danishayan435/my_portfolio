@@ -14,6 +14,7 @@ type Project = {
   results: string;
   live: string;
   tech: string[];
+  resultsText?: string;
 };
 
 export default function AllCampaigns() {
@@ -22,7 +23,7 @@ export default function AllCampaigns() {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const res = await fetch("/projects.json");
+        const res = await fetch("/projects.json", { cache: "no-store" });
         const data = await res.json();
         const formatted = data.map((p: any) => ({
           title: p.name,
@@ -31,6 +32,7 @@ export default function AllCampaigns() {
           results: p.resultsLink || "#",
           live: p.liveLink || "#",
           tech: p.technology.split(",").map((t: string) => t.trim()),
+          resultsText: p.resultsText,
         }));
         setProjects(formatted);
       } catch (err) {
@@ -86,6 +88,13 @@ export default function AllCampaigns() {
                     ))}
                   </div>
                 </div>
+
+                {project.resultsText && (
+                  <div className="px-8 pt-5 text-sm leading-relaxed text-gray-600">
+                    <span className="font-bold text-gray-900">Results: </span>
+                    {project.resultsText}
+                  </div>
+                )}
 
                 {/* Content */}
                 <div className="p-8">
