@@ -40,7 +40,7 @@ export default function AboutPage() {
                             <span className="text-orange-500">& Marketing Expert</span>
                         </h1>
                         <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed mb-6">
-                            Hey! I&apos;m <span className="font-bold text-purple-600 dark:text-purple-400">Muhammad Danish</span>, a results-driven Marketing Specialist with over <span className="font-bold underline decoration-orange-500">15 years of experience</span> in driving digital growth. 
+                            Hey! I&apos;m <span className="font-bold text-purple-600 dark:text-purple-400">Muhammad Danish</span>, a results-driven Marketing Specialist with over <span className="font-bold underline decoration-orange-500">3+ years of experience</span> in driving digital growth. 
                         </p>
                         <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed mb-6">
                             Currently, I serve as a <b>Social Media Manager at DM Worx LLC</b>, leading upscale digital strategies for US-based clients. My approach combines technical precision—rooted in my Computer Science background—with creative storytelling to build bridges between brands and global audiences.
