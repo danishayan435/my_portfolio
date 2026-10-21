@@ -23,7 +23,7 @@ export default function AllCampaigns() {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const res = await fetch("/projects.json");
+        const res = await fetch("/projects.json", { cache: "no-store" });
         const data = await res.json();
         const formatted = data.map((p: any) => ({
           title: p.name,
