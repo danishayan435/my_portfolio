@@ -51,7 +51,7 @@ const services = [
     },
     {
         title: "Growth Strategy & Consulting",
-        description: "Tailored digital roadmaps for startups and established brands. We use 15+ years of experience to solve complex marketing challenges.",
+        description: "Tailored digital roadmaps for startups and established brands. We use 3+ years of experience to solve complex marketing challenges.",
         icon: <TrendingUp className="w-8 h-8 text-pink-500" />,
         features: ["Market Research", "Audit & Analysis", "Revenue Forecasting", "Scaling Roadmaps"],
         color: "border-pink-500/50"
@@ -84,7 +84,7 @@ export default function ServicesPage() {
                         transition={{ delay: 0.1 }}
                         className="text-gray-600 dark:text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed"
                     >
-                        Leveraging 15+ years of cross-border marketing experience to build scalable digital assets. 
+                        Leveraging 3+ years of cross-border marketing experience to build scalable digital assets. 
                         We don&apos;t just manage ads; we build bridges between brands and global audiences.
                     </motion.p>
                 </div>
