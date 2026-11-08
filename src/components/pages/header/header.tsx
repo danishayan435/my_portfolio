@@ -19,7 +19,7 @@ export function Header() {
                 {/* Image Section */}
                 <div className="md:w-[40%] w-full flex justify-center items-center mt-10 md:mt-0">
                     <Image
-                        src="/images/danish.jpeg"
+                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-jFNexSxf4UjVIaU1dAUQAiErMmKaLD.png"
                         alt="Muhammad Danish"
                         width={280}
                         height={280}
